@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+Find few webpage link for MCQ Preparation
+
+https://www.javatpoint.com/python-mcq
+https://www.sanfoundry.com/1000-python-questions-answers/
+https://www.geeksforgeeks.org/python-multiple-choice-questions/
+https://www.onlineinterviewquestions.com/python-mcq/
+https://data-flair.training/blogs/python-mcq/
+---------------------------------------------------------------------------------------------
+Python Link to print Patterns
+https://pynative.com/print-pattern-python-examples/#h-pyramid-pattern-of-stars-in-python
+---------------------------------------------------------------------------------------------
+Documentation on Math funtion
+https://docs.python.org/3/library/math.html
+---------------------------------------------------------------------------------------------

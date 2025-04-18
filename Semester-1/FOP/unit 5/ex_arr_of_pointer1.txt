@@ -1,0 +1,26 @@
+//Program to access mulitple variable with array of pointer
+//concept of array of pointer
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int v1=67,num1=100, num2 = 68, x=23, y=89;
+
+	int *ptr[5]; //array of pointer
+	clrscr();
+	//assigning address of all the variable to array of pointer
+	
+	ptr[0] = &v1;
+	ptr[1] = &num1;
+	ptr[2] = &num2;
+	ptr[3] = &x;
+	ptr[4] = &y;
+	
+	
+	//printing value of all variable
+	for(i=0;i<5;i++)
+	{
+		printf("\n %d",*(ptr[i]));
+	}
+	getch();
+}

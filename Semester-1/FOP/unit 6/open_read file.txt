@@ -1,0 +1,15 @@
+#include<stdio.h>  
+void main( )  
+{  
+	FILE *fp ; //creating pointer for file 
+	char ch ;  
+	fp = fopen("file_handle.txt","r") ; //opening file 
+	while ( 1 )  //if file is exist then enter into while loop else not
+	{  
+		ch = fgetc ( fp ) ;  
+		if ( ch == EOF )  
+			break ;  
+		printf("%c",ch) ;  
+	}  
+	fclose (fp ) ;  //closing file
+}  

@@ -1,0 +1,25 @@
+//Program to access array element using pointer
+//concept of pointer to array
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int arr[5],i,*ptr;
+	clrscr();
+	ptr = arr; //assigning address of array to pointer
+	//when you assign address of array to pointer no need of &
+	for(i=0;i<5;i++)
+	{
+		printf("\n enter element for array : ");
+		scanf("%d",&arr[i]);
+	}
+	
+	//printing array using pointer
+	for(i=0;i<5;i++)
+	{
+		printf("\n %d",*(ptr+i));
+		//without pointer 
+		//printf("\n %d",arr[i]);
+	}
+	getch();
+}

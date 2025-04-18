@@ -1,0 +1,21 @@
+{
+    "window.zoomLevel": 2,
+    "files.autoSave": "afterDelay",
+    "window.titleBarStyle": "custom",
+    "code-runner.runInTerminal": true,
+    "editor.suggestSelection": "first",
+    "code-runner.ignoreSelection": true,
+    "terminal.integrated.cursorStyle": "line",
+    "debug.terminal.clearBeforeReusing": true,
+    "terminal.integrated.cursorBlinking": true,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "code-runner.executorMap": {
+        
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt && rm $fileNameWithoutExt.class && cd /",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt && rm $fileNameWithoutExt && cd /",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt && rm $fileNameWithoutExt && cd /",
+        "python": "python3 $dir$fileName && cd /"
+    }
+}

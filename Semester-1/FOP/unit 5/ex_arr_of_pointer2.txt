@@ -1,0 +1,44 @@
+//Program to access mulitple array with array of pointer
+//concept of array of pointer
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int arr1[3] = {11,22,33};
+	int arr2[5] = {10,20,30,40,50};
+	int arr3[6] = {1,7,3,9,11,19,17};
+	int arr4[2] = {21,31};
+	int i;
+	int *ptr[4]; //array of pointer
+	clrscr();
+	//assigning address of all the variable to array of pointer
+	
+	ptr[0] = arr1;
+	ptr[1] = arr2;
+	ptr[2] = arr3;
+	ptr[3] = arr4;
+	
+	
+	//printing value of array 1 using pointer
+	for(i=0;i<3;i++)
+	{
+		printf("\t %d",*(ptr[0] + i));
+	}
+	//printing value of array 2 using pointer
+	printf("\n second array is : ");
+	for(i=0;i<5;i++)
+	{
+		printf("\t %d",*(ptr[1] + i));
+	}
+	printf("\n Third array is : ");
+	for(i=0;i<2;i++)
+	{
+		printf("\t %d",*(ptr[2] + i));
+	}
+	printf("\n Forth array is : ");
+	for(i=0;i<3;i++)
+	{
+		printf("\n %d",*(ptr[3] + i));
+	}
+	getch();
+}
